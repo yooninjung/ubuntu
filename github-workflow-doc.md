@@ -79,6 +79,13 @@ The `pcc_console_url`, `pcc_user`, and `pcc_pass` inputs are configured using Gi
   run: |
     docker push ultimatetestdrive/ubuntu:${{ github.run_number }}
 ```
+### Required Workflow Secrets
+Below are the secrets that are passed as variables to this Github Action:
+- **DOCKERHUB_TOKEN:** Dockerhub personal access token
+- **PCC_CONSOLE_URL:** Prisma Cloud Compute URL
+- **PCC_ACCESS_KEY_ID:** Prisma Cloud Access Key ID
+- **PCC_SECRET_ACCESS_KEY:** Prisma Cloud Secret Access Key
+- **PC_API_KEY:** Prsima Cloud Access Key ID and Secret Key in the format `<PCC_SECRET_ACCESS_KEY>::<PC_API_KEY>`
 
 ## Conclusion
 
