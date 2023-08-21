@@ -42,8 +42,8 @@ jobs:
           # You will need Prisma Cloud API Access Token
           # More details in https://github.com/prisma-cloud-shiftleft/iac-scan-action
           prisma_api_url: https://api.sg.prismacloud.io
-          access_key: 79bab284-1eab-46be-930d-b12bf3efe932
-          secret_key: wKicm2ZDwAbwfntQXizuyZuLgzY=
+          access_key: bc6d4a2b-b7f6-4451-b2f9-d4bb8ff6d3d1
+          secret_key: Kcz9YK8HL8iT6zSEdIo6U3YxMTA=
           # Scan sources on Prisma Cloud are uniquely identified by their name
           asset_name: 'my-asset-name'
           # The service need to know the type of IaC being scanned
